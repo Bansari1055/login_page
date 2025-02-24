@@ -1,0 +1,85 @@
+/* Global styles */
+.App {
+  text-align: center;
+  background-color: black; /* Set background color to black */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  color: rgb(228, 4, 42); /* Set default text color to pink */
+}
+body {
+  background-color: black;
+  color: #FFC0CB;
+  text-align: center;
+}
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #FFC0CB;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: pink; /* Text color for the header */
+  font-size: 2rem; /* Larger text size */
+}
+
+.App-link {
+  color: #ff69b4; /* Pink color for the link */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: pink;
+  background-color: black;
+  border: 2px solid pink;
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #ff1493; /* Bright pink focus */
+}
+
+.App-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: pink;
+  background-color: black;
+  border: 2px solid pink;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.App-button:hover {
+  background-color: #ff1493;
+  border-color: #ff1493;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
